@@ -7,106 +7,194 @@
     padding: 1rem;
     margin-left: 1rem;
 }
-.menu-section{
-    background-image: url(../../../assets/img/Rounded_Rectangle.png);
+
+.menu-section {
+    // background-image: url(../../../assets/img/Rounded_Rectangle.png);
 }
-.toolbar{
+
+.toolbar {
     column-gap: 7rem;
     width: 73%;
     justify-content: center;
     column-count: 3;
 }
-.navbar{
+
+.navbar {
     width: 69%;
     margin: auto;
     background-color: transparent !important;
 }
-.social-icons img{
-    height:40px;
+
+.social-icons img {
+    height: 40px;
     width: 29px;
 }
-.navbar-nav{
+
+.navbar-nav {
     column-gap: 44%;
 }
-.carousel-inner img{
+
+.carousel-inner img {
     height: 31.5rem;
 }
-.digimak{
+
+.digimak {
     width: 109px;
     height: 34px;
 }
-.digimak-section p{
-   font-size: 15px;
+
+.digimak-section p {
+    font-size: 15px;
 }
-.digimak-section h2{
+
+.digimak-section h2 {
     color: #3a7cec;
     font-size: 27px;
     font-weight: 700;
 }
-.strategy img{
+
+.strategy img {
     width: 77px;
     height: 63px;
 }
-.strategy{
+
+.strategy {
     display: flex;
     justify-content: center;
     margin: auto !important;
     padding: 1rem;
     color: #3a7cec;
 }
-.strategy-container{
+
+.strategy-container {
     border: 1px solid #3a7cec;
-    border-radius:20px;
+    border-radius: 20px;
 }
-.seo-btn button{
-background-color: #3a7cec;
-color: #fff;
-border: none;
-font-size: 12px;
-font-weight: 600;
-border-radius:5px;
+
+.seo-btn button {
+    background-color: #3a7cec;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
 }
-.large{
+
+.light-btn button {
+    background-color: #fff;
+    color: #3a7cec;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+ul li:before {
+    content: "✓";
+    background-color: #fff;
+    color: #3a7cec;
+    border-radius: 50%;
+    padding: 0 5px;
+    font-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.digital-marketing-container {
+    background-color: #3a7cec;
+    color: #fff;
+}
+
+.dm-section {
+    padding-left: 6rem;
+}
+
+.dm {
+    padding: 0 2rem;
+    margin: auto;
+
+    span {
+        font-size: 5rem;
+        font-weight: bolder;
+        opacity: 0.45;
+    }
+}
+
+.dm p {
+    margin-top: -1.5rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.seo-section {
+    color: #3a7cec;
+
+    .seo-cards {
+        gap: 1%;
+
+        .mat-card {
+            color: #fff;
+            border-radius: 14px;
+            height: fit-content;
+            background-color: #3a7cec;
+            width: 20%;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        img {
+            height: 4rem;
+        }
+        .objective p{
+            padding-bottom: 2.789rem;
+        }
+    }
+}
+
+.large {
     width: 1695px;
-height: 55px;
-color: #3a7cec;
-font-family: "Montserrat - Extra Bold";
-font-size: 54px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 64.63px;
-text-align: left;
-/* Text style for "W, e Provi" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    height: 55px;
+    color: #3a7cec;
+    font-family: "Montserrat - Extra Bold";
+    font-size: 54px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 64.63px;
+    text-align: left;
+    /* Text style for "W, e Provi" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
-.medium{
+
+.medium {
     /* Style for "At" */
-width: 1691px;
-height: 158px;
-color: #3a7cec;
-font-family: Montserrat;
-font-size: 31px;
-font-weight: 500;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: justifyCenter;
-/* Text style for "At" */
-font-family: "Montserrat - Medium";
-font-weight: 500;
-font-style: normal;
-letter-spacing: normal;
-line-height: 42.68px;
-/* Text style for "," */
-color: #6e6e6e;
-font-family: "Myriad Pro";
-font-size: 65px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 83.54px;
-text-align: left;
+    width: 1691px;
+    height: 158px;
+    color: #3a7cec;
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: justifyCenter;
+    /* Text style for "At" */
+    font-family: "Montserrat - Medium";
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 42.68px;
+    /* Text style for "," */
+    color: #6e6e6e;
+    font-family: "Myriad Pro";
+    font-size: 65px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 83.54px;
+    text-align: left;
 }
