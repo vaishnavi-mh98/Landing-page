@@ -1,0 +1,112 @@
+.logo {
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    width: 100%;
+    height: 7rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.menu-section{
+    background-image: url(../../../assets/img/Rounded_Rectangle.png);
+}
+.toolbar{
+    column-gap: 7rem;
+    width: 73%;
+    justify-content: center;
+    column-count: 3;
+}
+.navbar{
+    width: 69%;
+    margin: auto;
+    background-color: transparent !important;
+}
+.social-icons img{
+    height:40px;
+    width: 29px;
+}
+.navbar-nav{
+    column-gap: 44%;
+}
+.carousel-inner img{
+    height: 31.5rem;
+}
+.digimak{
+    width: 109px;
+    height: 34px;
+}
+.digimak-section p{
+   font-size: 15px;
+}
+.digimak-section h2{
+    color: #3a7cec;
+    font-size: 27px;
+    font-weight: 700;
+}
+.strategy img{
+    width: 77px;
+    height: 63px;
+}
+.strategy{
+    display: flex;
+    justify-content: center;
+    margin: auto !important;
+    padding: 1rem;
+    color: #3a7cec;
+}
+.strategy-container{
+    border: 1px solid #3a7cec;
+    border-radius:20px;
+}
+.seo-btn button{
+background-color: #3a7cec;
+color: #fff;
+border: none;
+font-size: 12px;
+font-weight: 600;
+border-radius:5px;
+}
+.large{
+    width: 1695px;
+height: 55px;
+color: #3a7cec;
+font-family: "Montserrat - Extra Bold";
+font-size: 54px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 64.63px;
+text-align: left;
+/* Text style for "W, e Provi" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.medium{
+    /* Style for "At" */
+width: 1691px;
+height: 158px;
+color: #3a7cec;
+font-family: Montserrat;
+font-size: 31px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: justifyCenter;
+/* Text style for "At" */
+font-family: "Montserrat - Medium";
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 42.68px;
+/* Text style for "," */
+color: #6e6e6e;
+font-family: "Myriad Pro";
+font-size: 65px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 83.54px;
+text-align: left;
+}
